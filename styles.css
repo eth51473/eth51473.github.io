@@ -1,0 +1,285 @@
+*{
+  scroll-behavior: smooth;
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+#top-bar{
+  position:fixed;
+  z-index: 10000;
+  height: 5.5vh;
+  width: 100%;
+  background-color:#050505;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  border-bottom:#BAC1B8 1px solid;
+  padding: 4px;
+  
+}
+#top-bar a{
+  text-justify: center;
+  padding: 10px;
+  padding-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  
+  color: #BAC1B8;
+  background-color: rgb(56, 56, 56);
+  text-decoration: none;
+}
+#top-bar a:hover{
+  background-color: #050505;
+}
+#top-bar #logo{
+background:none;
+margin-right: auto;
+font-size: 28px;
+text-justify: left;
+color: #E94F64;  
+color: -webkit-linear-gradient(to right,#E94F64,#c7c2c2); 
+position: relative;
+top: -10px;
+}
+#top-bar #right-marg{
+  margin-right: 2vw;
+  
+  }
+#intro{
+  height: 100vh;
+  background-image: url('/img/skatecrop.png');
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin: 0px;
+}
+#intro-text{
+  position: relative;
+  height: 60vh;
+  width: 40vw;
+  left: 7vw;
+  top: 25vh;
+  line-height: 60px;
+  color: rgb(240, 240, 240) ;
+}
+h1{
+  padding: 0px;
+  margin: 0px;
+  font-size: 3.5rem;
+}
+h2{
+  font-size: 2.5rem;
+  margin: 0px;
+}
+span{
+  color: #E94F64;
+}
+.page{
+  height: 100vh;
+  width: 100vw;
+  background-color:#E94F64;
+}
+
+#page-header{
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(240, 240, 240);
+  
+}
+#page-header h2{
+  border-bottom: white 2px solid;
+}
+.underline {
+  border-bottom: white 2px solid;
+}
+
+#about-img{
+  position: relative;
+  left: 10vw;
+  top: 10vh;
+  height: 200px;
+  width: 200px;
+  background-image: url(/img/IMG_0403_Original.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  border: white 1px solid;
+}
+.text-box{
+  
+  padding: 10px;
+  border: white 1px solid;
+  text-align: center;
+}
+#about-info{
+  height: 250px;
+  width: 400px;
+  position: relative;
+  margin: auto;
+  margin-top: -180px;
+  
+}
+#about-hobbies{
+  margin: auto;
+  margin-top: 10px;
+  height: 200px;
+  width: 380px;
+  line-height: 30px;
+  
+}
+
+#skill-box{
+  padding-top: auto ;
+  width: 45vw;
+  height:50vh;
+  margin: auto;
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: none;
+}
+.tech-logo{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 30px;
+  margin-left: 30px;
+  height: 140px;
+  width: 120px;
+ 
+  flex-wrap: wrap;
+  background-size: 75px;
+  background-repeat: no-repeat;
+  background-position: top;
+  
+}
+.tech-logo h4{
+  position: relative;
+  top: 110px;
+  font-size: 24px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#git{
+  background-image: url('https://iamnitinmisra.com/static/media/git_logoo.16958534.png');
+  
+}
+#html{
+  background-size: 110px;
+  background-position: top;
+  background-image: url('https://iamnitinmisra.com/static/media/html5_logo.664a8c00.png');
+}
+#css{
+  background-image: url('https://iamnitinmisra.com/static/media/css3.c26a73b4.png');
+}
+#js{
+  background-image: url('https://iamnitinmisra.com/static/media/JavaScript_Logo.1c124bee.png');
+}
+#nodejs{
+  background-image: url('https://iamnitinmisra.com/static/media/nodejs.46f75866.png');
+}
+#react{
+  background-image: url('https://iamnitinmisra.com/static/media/React-01.cff40704.png');
+}
+
+
+#project-box{
+  
+  margin: auto;
+  height: 60vh;
+  width: 60vw;
+  position: relative;
+  top: 80px;
+  display: flex;
+
+}
+.project-container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 25vw;
+  height: 60vh;
+  border: 1px solid white;
+}
+
+.projectlogo{
+  width: 5vw;
+  height: 10vh;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.projectdesc{
+  width: 20vw;
+  height: 24vh;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  text-align: center;
+  padding: 10px;
+}
+.project-container a{
+  margin: auto;
+  text-decoration: none;
+  color: #575757;
+  font-size: 24px;
+}
+.project-container a:hover{
+  color: #a5a5a5;
+
+}
+
+#pokelogo{
+  background-image: url(/img/pokeball.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+}
+#vanlogo{
+  background-image: url(/img/delivery-van.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  
+}
+.projectdesc h3{
+  margin-top: 0px;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+p{
+  font-size: 20px;
+}
+
+#contact-info{
+ position: relative;
+ top: 80px;
+  margin: auto;
+  border: 1px solid white;
+  height: 50vh;
+  width: 40vw;
+  text-align: center;
+  }
+#contact-info h3{
+  margin-top: 15px;
+  font-size: 26px;
+}
+
+.anchorpos{
+  position: relative;
+  top: -6.7vh;
+  visibility: hidden;
+}
+#icon-credits{
+  display: none;
+}
