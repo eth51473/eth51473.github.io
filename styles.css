@@ -260,21 +260,59 @@ span{
 p{
   font-size: 20px;
 }
-
+#contact-page{
+  height: 500px;
+}
 #contact-info{
  position: relative;
- top: 80px;
+ display:flex;
+ flex-direction: column;
+ top: 40px;
   margin: auto;
-  border: 1px solid white;
   height: 50vh;
   width: 40vw;
   text-align: center;
+  align-items: center;
   }
 #contact-info h3{
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 26px;
 }
+#contact-info a{
+  text-decoration: none;
+  color: #575757;
+}
 
+#contact-info a:hover{
+  color: #a5a5a5;
+}
+#contact-logos{
+  display: flex;
+}
+
+#lnlogo{
+  margin-top: 15px;
+  margin-right: 20px;
+height: 50px;
+width: 50px;
+background-image: url(/img/LI-In-Bug.png);
+background-size: cover;
+}
+#githublogo{
+  margin-top: 15px;
+height: 50px;
+width: 50px;
+background-image: url(/img/GitHub-Mark-64px.png);
+background-size: cover;
+}
+#mail-logo{
+  margin-top: 15px;
+  margin-right: 20px;
+height: 50px;
+width: 50px;
+background-image: url(/img/mail.png);
+background-size: cover;
+}
 .anchorpos{
   position: relative;
   top: -6.7vh;
