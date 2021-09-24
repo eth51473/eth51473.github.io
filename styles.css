@@ -24,11 +24,12 @@ body{
 }
 #top-bar a{
   text-justify: center;
+  text-align: center;
   padding: 10px;
   padding-top: 10px;
   margin-right: 5px;
   margin-left: 5px;
-  
+  height: 50%;
   color: #BAC1B8;
   background-color: rgb(56, 56, 56);
   text-decoration: none;
@@ -313,6 +314,7 @@ width: 75px;
 background-image: url(/img/mail.png);
 background-size: cover;
 }
+
 .anchorpos{
   position: relative;
   top: -6.7vh;
