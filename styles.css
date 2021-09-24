@@ -26,10 +26,12 @@ body{
 #top-bar a{
   text-justify: center;
   text-align: center;
-  line-height: 100%;
-  padding: 8px;
+  padding: 4px;
   /* padding: 10px;
   padding-top: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-right: 5px;
   margin-left: 5px;
   height: 50%;
@@ -47,8 +49,8 @@ font-size: 28px;
 text-justify: left;
 color: #E94F64;  
 color: -webkit-linear-gradient(to right,#E94F64,#c7c2c2); 
-position: relative;
-top: -10px;
+/* position: relative;
+top: -10px; */
 }
 #top-bar #right-marg{
   margin-right: 2vw;
