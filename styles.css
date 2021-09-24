@@ -26,6 +26,7 @@ body{
 #top-bar a{
   text-justify: center;
   text-align: center;
+  line-height: 100%;
   padding: 8px;
   /* padding: 10px;
   padding-top: 10px; */
