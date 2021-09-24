@@ -18,6 +18,7 @@ body{
   /* background-color: white; */
   display: flex;
   justify-content: center;
+  align-items: center;
   border-bottom:#BAC1B8 1px solid;
   padding: 4px;
   
@@ -25,8 +26,9 @@ body{
 #top-bar a{
   text-justify: center;
   text-align: center;
-  padding: 10px;
-  padding-top: 10px;
+  padding: 8px;
+  /* padding: 10px;
+  padding-top: 10px; */
   margin-right: 5px;
   margin-left: 5px;
   height: 50%;
