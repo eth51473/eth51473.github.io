@@ -8,20 +8,25 @@ body{
   margin: 0;
   padding: 0;
   color: white;
+  height:100%;
 }
 #top-bar{
   position:fixed;
   z-index: 10000;
-  height: 5.5vh;
+  height: 35px;
   width: 100%;
   background-color:#050505;
   /* background-color: white; */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
   border-bottom:#BAC1B8 1px solid;
   padding: 4px;
   
+}
+#navlinks{
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-end;
 }
 #top-bar a{
   text-justify: center;
@@ -29,28 +34,25 @@ body{
   padding: 4px;
   /* padding: 10px;
   padding-top: 10px; */
-  display: flex;
-  flex-direction: column;
+  
   justify-content: center;
   margin-right: 5px;
   margin-left: 5px;
   height: 50%;
   color: #BAC1B8;
-  background-color: rgb(56, 56, 56);
+  font-size: 20px;
   text-decoration: none;
 }
 #top-bar a:hover{
-  background-color: #050505;
+  font-size: 21px;
 }
 #top-bar #logo{
 background:none;
 margin-right: auto;
+
 font-size: 28px;
 text-justify: left;
-color: #E94F64;  
-color: -webkit-linear-gradient(to right,#E94F64,#c7c2c2); 
-/* position: relative;
-top: -10px; */
+color: #95AFBA; 
 }
 #top-bar #right-marg{
   margin-right: 2vw;
@@ -84,12 +86,18 @@ h2{
   margin: 0px;
 }
 span{
-  color: #E94F64;
+  color: #95AFBA;
 }
-.page{
-  height: 100vh;
-  width: 100vw;
-  background-color:#E94F64;
+ .page{
+  height: 600px;
+  width: 100%;
+  background-color: #95AFBA;
+} 
+.project-page{
+  height: 500px;
+}
+.skills-page{
+  height: 500px;
 }
 
 #page-header{
@@ -124,8 +132,10 @@ span{
   padding: 10px;
   border: white 1px solid;
   text-align: center;
+  text-justify: center;
 }
 #about-info{
+  
   height: 250px;
   width: 400px;
   position: relative;
@@ -141,7 +151,6 @@ span{
   line-height: 30px;
   
 }
-
 #skill-box{
   padding-top: auto ;
   width: 45vw;
@@ -188,7 +197,12 @@ span{
 #css{
   background-image: url('https://iamnitinmisra.com/static/media/css3.c26a73b4.png');
 }
+
+#js-text{
+  margin-top: -20px;
+}
 #js{
+  margin-top: 45px;
   background-image: url('https://iamnitinmisra.com/static/media/JavaScript_Logo.1c124bee.png');
 }
 #nodejs{
@@ -202,6 +216,7 @@ span{
 #project-box{
   
   margin: auto;
+  margin-top: -20px;
   height: 60vh;
   width: 60vw;
   position: relative;
@@ -213,22 +228,24 @@ span{
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 25vw;
-  
+  margin-right: 100px;
+  width: 100%;
+  height: 100%;
   border: 1px solid white;
 }
 
+
 .projectlogo{
-  width: 5vw;
-  height: 10vh;
+  width: 60px;
+  height: 60px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   
 }
 .projectdesc{
-  width: 20vw;
-  height: 24vh;
+  width: 300px;
+  height: 100%;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -236,6 +253,7 @@ span{
   text-align: center;
   padding: 10px;
 }
+
 .project-container a{
   margin: auto;
   text-decoration: none;
@@ -261,13 +279,12 @@ span{
 .projectdesc h3{
   margin-top: 0px;
   font-size: 24px;
-  margin-bottom: 25px;
 }
 p{
   font-size: 20px;
 }
 #contact-page{
-  height: 500px;
+  height: 350px;
 }
 #contact-info{
  position: relative;
@@ -322,9 +339,104 @@ background-size: cover;
 
 .anchorpos{
   position: relative;
-  top: -6.7vh;
+  top: -8vh;
   visibility: hidden;
 }
 #icon-credits{
   display: none;
+}
+
+@media  screen and (max-width: 1200px) {
+  #top-bar{
+    height: 50px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #top-bar #logo{
+    height:100%;
+    background:none;
+    margin-top: 5px;
+    margin:auto;
+    margin-bottom: -5px;
+    font-size: 28px;
+    text-justify: center;
+    align-self: center;
+    color: #95AFBA; 
+    }
+
+    #navlinks{
+      margin:0px,auto,0px auto;
+      justify-content: center;
+      align-items: center;
+    }
+    #navlinks a{
+      padding-bottom: 10px;
+    }
+    #navlinks a:hover{
+      font-size: 20px;
+      color: #95AFBA;
+    }
+    
+    /* project section */
+    .project-page{
+      height:800px;
+    }
+    .project-container{
+      margin-bottom: 25px;
+    }
+    #project-box{
+      flex-direction: column;
+      width:350px
+    }
+
+    /* about section */
+    #about-info{
+      width:300px;
+      height:300px;
+      margin-top: 20px;
+    }
+    #about-hobbies{
+      width:300px;
+      height:200px;
+    }
+    .about-page{
+      height:650px;
+    }
+    #about-img{
+      display: none;
+    }
+    /* skills section */
+
+    #skill-box{
+      width:300px
+    }
+    .tech-logo{
+      margin:0px 10px;
+      margin-bottom: 40px;
+      height: 90px;
+      width: 75px;
+      
+    }
+    #js-text{
+      margin-top: -15px;
+    }
+    #js{
+      margin-top: 15px;
+    }
+    #intro{
+      background-position-y: 50px;
+    }
+    
+
+}
+@media  screen and (max-width: 400px){
+  /* intro-img */
+  #intro{
+    height:90vh;
+    background-image: url('/img/skatecrop.png');
+    background-position-x: -300px;
+    
+  }
 }
