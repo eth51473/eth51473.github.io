@@ -154,8 +154,8 @@ span{
 }
 #skill-box{
   padding-top: auto ;
-  width: 45vw;
-  height:50vh;
+  width: 600px;
+  height:350px;
   margin: auto;
   position: relative;
   top: 80px;
@@ -169,8 +169,8 @@ span{
   margin-bottom: auto;
   margin-right: 30px;
   margin-left: 30px;
-  height: 140px;
-  width: 120px;
+  height: 160px;
+  width: 140px;
  
   flex-wrap: wrap;
   background-size: 75px;
@@ -429,7 +429,7 @@ background-size: cover;
     .tech-logo{
       margin:0px 10px;
       margin-bottom: 40px;
-      height: 90px;
+      height: 105px;
       width: 75px;
       
     }
