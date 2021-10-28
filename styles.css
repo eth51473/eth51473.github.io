@@ -154,8 +154,8 @@ span{
 }
 #skill-box{
   padding-top: auto ;
-  width: 600px;
-  height:350px;
+  width: 650px;
+  height:300px;
   margin: auto;
   position: relative;
   top: 80px;
@@ -441,11 +441,12 @@ background-size: cover;
     }
     #intro{
       background-position-y: 50px;
+      
     }
     
 
 }
-@media  screen and (max-width: 400px){
+@media  screen and (max-width: 500px){
   /* intro-img */
   #intro{
     height:90vh;
