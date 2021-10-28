@@ -395,6 +395,8 @@ background-size: cover;
     }
     .project-container{
       margin-bottom: 25px;
+      margin-left: 0px;
+      margin-right: 0px;
     }
     #project-box{
       flex-direction: column;
