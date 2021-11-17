@@ -1,123 +1,124 @@
-*{
+* {
   scroll-behavior: smooth;
   padding: 0px;
   margin: 0px;
 }
-body{
+body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   color: white;
-  height:100%;
-  background-color:#95AFBA ;
+  height: 100%;
+  background-color: #95afba;
+  max-width: 100%;
+  overflow-x:hidden;
 }
-#top-bar{
-  position:fixed;
+#top-bar {
+  position: fixed;
   z-index: 10000;
   height: 35px;
   width: 100%;
-  background-color:#050505;
+  background-color: #050505;
   /* background-color: white; */
   display: flex;
-  
-  border-bottom:#BAC1B8 1px solid;
+
+  border-bottom: #bac1b8 1px solid;
   padding: 4px;
-  
 }
-#navlinks{
+#navlinks {
   display: flex;
   flex-direction: row;
   justify-self: flex-end;
 }
-#top-bar a{
+#top-bar a {
   text-justify: center;
   text-align: center;
   padding: 4px;
   /* padding: 10px;
   padding-top: 10px; */
-  
+
   justify-content: center;
   margin-right: 5px;
   margin-left: 5px;
   height: 50%;
-  color: #BAC1B8;
+  color: #bac1b8;
   font-size: 20px;
   text-decoration: none;
+  transition: 400ms;
 }
-#top-bar a:hover{
+#top-bar a:hover {
   font-size: 21px;
+  transition: 300ms;
 }
-#top-bar #logo{
-background:none;
-margin-right: auto;
+#top-bar #logo {
+  background: none;
+  margin-right: auto;
 
-font-size: 28px;
-text-justify: left;
-color: #95AFBA; 
+  font-size: 28px;
+  text-justify: left;
+  color: #95afba;
 }
-#top-bar #right-marg{
+#top-bar #right-marg {
   margin-right: 2vw;
-  
-  }
-#intro{
+}
+#intro {
   height: 100vh;
-  background-image: url('/img/skatecrop.png');
-  
+  background-image: url("/img/skatecrop.png");
+
   background-size: cover;
   background-repeat: no-repeat;
 
   margin: 0px;
 }
-#intro-text{
+#intro-text {
   position: relative;
   height: 60vh;
   width: 40vw;
   left: 7vw;
   top: 25vh;
   line-height: 60px;
-  color: rgb(240, 240, 240) ;
+  color: rgb(240, 240, 240);
 }
-h1{
+h1 {
   padding: 0px;
   margin: 0px;
   font-size: 3.5rem;
 }
-h2{
+h2 {
   font-size: 2.5rem;
   margin: 0px;
 }
-span{
-  color: #95AFBA;
+span {
+  color: #95afba;
 }
- .page{
+.page {
   height: 600px;
   width: 100%;
-  background-color: #95AFBA;
-} 
-.project-page{
-  height: 575px;
+  background-color: #95afba;
 }
-.skills-page{
+.project-page {
+  height: 1200px;
+}
+.skills-page {
   height: 500px;
 }
 
-#page-header{
+#page-header {
   position: relative;
   top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(240, 240, 240);
-  
 }
-#page-header h2{
+#page-header h2 {
   border-bottom: white 2px solid;
 }
 .underline {
   border-bottom: white 2px solid;
 }
 
-#about-img{
+#about-img {
   position: relative;
   left: 10vw;
   top: 10vh;
@@ -128,34 +129,30 @@ span{
   border-radius: 50%;
   border: white 1px solid;
 }
-.text-box{
-  
+.text-box {
   padding: 10px;
   border: white 1px solid;
   text-align: center;
   text-justify: center;
 }
-#about-info{
-  
+#about-info {
   height: 250px;
   width: 400px;
   position: relative;
   margin: auto;
   margin-top: -180px;
-  
 }
-#about-hobbies{
+#about-hobbies {
   margin: auto;
   margin-top: 10px;
   height: 200px;
   width: 380px;
   line-height: 30px;
-  
 }
-#skill-box{
-  padding-top: auto ;
+#skill-box {
+  padding-top: auto;
   width: 650px;
-  height:300px;
+  height: 300px;
   margin: auto;
   position: relative;
   top: 80px;
@@ -164,21 +161,20 @@ span{
   justify-content: space-evenly;
   border: none;
 }
-.tech-logo{
+.tech-logo {
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 30px;
   margin-left: 30px;
   height: 160px;
   width: 140px;
- 
+
   flex-wrap: wrap;
   background-size: 75px;
   background-repeat: no-repeat;
   background-position: top;
-  
 }
-.tech-logo h4{
+.tech-logo h4 {
   position: relative;
   top: 110px;
   font-size: 24px;
@@ -186,36 +182,33 @@ span{
   margin: 0px;
 }
 
-#git{
-  background-image: url('https://iamnitinmisra.com/static/media/git_logoo.16958534.png');
-  
+#git {
+  background-image: url("https://iamnitinmisra.com/static/media/git_logoo.16958534.png");
 }
-#html{
+#html {
   background-size: 110px;
   background-position: top;
-  background-image: url('https://iamnitinmisra.com/static/media/html5_logo.664a8c00.png');
+  background-image: url("https://iamnitinmisra.com/static/media/html5_logo.664a8c00.png");
 }
-#css{
-  background-image: url('https://iamnitinmisra.com/static/media/css3.c26a73b4.png');
+#css {
+  background-image: url("https://iamnitinmisra.com/static/media/css3.c26a73b4.png");
 }
 
-#js-text{
+#js-text {
   margin-top: -20px;
 }
-#js{
+#js {
   margin-top: 45px;
-  background-image: url('https://iamnitinmisra.com/static/media/JavaScript_Logo.1c124bee.png');
+  background-image: url("https://iamnitinmisra.com/static/media/JavaScript_Logo.1c124bee.png");
 }
-#nodejs{
-  background-image: url('https://iamnitinmisra.com/static/media/nodejs.46f75866.png');
+#nodejs {
+  background-image: url("https://iamnitinmisra.com/static/media/nodejs.46f75866.png");
 }
-#react{
-  background-image: url('https://iamnitinmisra.com/static/media/React-01.cff40704.png');
+#react {
+  background-image: url("https://iamnitinmisra.com/static/media/React-01.cff40704.png");
 }
 
-
-#project-box{
-  
+#project-box {
   margin: auto;
   margin-top: -20px;
   height: 320px;
@@ -223,68 +216,62 @@ span{
   position: relative;
   top: 80px;
   display: flex;
-
+  flex-wrap: wrap;
 }
-.project-container{
+.project-container {
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-bottom: 25px;
+  /* margin-left: 25px;
+  margin-right: 25px; */
   width: 100%;
-  height: 310px;
+  height: 330px;
   border: 1px solid white;
 }
 
-
-.projectlogo{
+.projectlogo {
   width: 60px;
   height: 60px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  
 }
-.projectdesc{
-  width: 300px;
-  height: 310px;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  
-  text-align: center;
-  padding: 10px;
-}
-
-.project-container a{
+.project-container a {
   margin: auto;
   text-decoration: none;
   color: #414141;
   font-size: 24px;
+  transition: 200ms;
 }
-.project-container a:hover{
+.project-container a:hover {
   font-size: 25px;
   color: white;
-
+  transition: 200ms;
 }
 
-#pokelogo{
+#pokelogo {
   background-image: url(/img/pokeball.png);
   background-size: 60px;
   background-repeat: no-repeat;
 }
-#vanlogo{
+#vanlogo {
   background-image: url(/img/delivery-van.png);
   background-size: 60px;
   background-repeat: no-repeat;
-  
 }
-.projectdesc h3{
+#slacklogo {
+  background-image: url(/img/icons8-tightrope-walking-100.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+}
+
+.projectdesc h3 {
   margin-top: 0px;
   font-size: 24px;
 }
 .projectdesc {
-  width: 300px;
+  width: 350px;
   height: 100%;
   margin: auto;
   margin-top: 10px;
@@ -292,172 +279,170 @@ span{
   text-align: center;
   padding: 10px;
 }
-p{
+p {
   font-size: 20px;
 }
-#contact-page{
+#contact-page {
   height: 350px;
 }
-#contact-info{
- position: relative;
- display:flex;
- flex-direction: column;
- top: 40px;
+#contact-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 40px;
   margin: auto;
   height: 50vh;
   width: 40vw;
   text-align: center;
   align-items: center;
-  }
-#contact-info h3{
+}
+#contact-info h3 {
   margin-top: 10px;
   font-size: 26px;
 }
-#contact-info a{
+#contact-info a {
   text-decoration: none;
   color: #575757;
 }
 
-#contact-info a:hover{
+#contact-info a:hover {
   color: #a5a5a5;
 }
-#contact-logos{
+#contact-logos {
   display: flex;
 }
 
-#lnlogo{
+#lnlogo {
   margin-top: 15px;
   margin-right: 75px;
-height: 75px;
-width: 75px;
-background-image: url(/img/LI-In-Bug.png);
-background-size: cover;
+  height: 75px;
+  width: 75px;
+  background-image: url(/img/LI-In-Bug.png);
+  background-size: cover;
 }
-#githublogo{
+#githublogo {
   margin-top: 15px;
-height: 75px;
-width: 75px;
-background-image: url(/img/GitHub-Mark-64px.png);
-background-size: cover;
+  height: 75px;
+  width: 75px;
+  background-image: url(/img/GitHub-Mark-64px.png);
+  background-size: cover;
 }
-#mail-logo{
+#mail-logo {
   margin-top: 15px;
   margin-right: 75px;
-height: 75px;
-width: 75px;
-background-image: url(/img/mail.png);
-background-size: cover;
+  height: 75px;
+  width: 75px;
+  background-image: url(/img/mail.png);
+  background-size: cover;
 }
 
-.anchorpos{
+.anchorpos {
   position: relative;
   top: -8vh;
   visibility: hidden;
 }
-#icon-credits{
+#icon-credits {
   display: none;
 }
 
-@media  screen and (max-width: 1200px) {
-  #top-bar{
+@media screen and (max-width: 1200px) {
+  #top-bar {
     height: 50px;
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  #top-bar #logo{
-    height:100%;
-    background:none;
+  #top-bar #logo {
+    height: 100%;
+    background: none;
     margin-top: 5px;
-    margin:auto;
+    margin: auto;
     margin-bottom: -5px;
     font-size: 28px;
     text-justify: center;
     align-self: center;
-    color: #95AFBA; 
-    }
-
-    #navlinks{
-      margin:0px,auto,0px auto;
-      justify-content: center;
-      align-items: center;
-    }
-    #navlinks a{
-      padding-bottom: 10px;
-    }
-    #navlinks a:hover{
-      font-size: 20px;
-      color: #95AFBA;
-    }
-    
-    /* project section */
-    .project-page{
-      height:850px;
-    }
-    .project-container{
-      margin-bottom: 25px;
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-    #project-box{
-      flex-direction: column;
-      width:350px
-    }
-
-    /* about section */
-    #about-info{
-      width:300px;
-      height:325px;
-      margin-top: 20px;
-    }
-    #about-hobbies{
-      width:300px;
-      height:200px;
-    }
-    .about-page{
-      height:750px;
-    }
-    #about-img{
-      display: none;
-    }
-    /* skills section */
-
-    #skill-box{
-      width:300px
-    }
-    .tech-logo{
-      margin:0px 10px;
-      margin-bottom: 40px;
-      height: 105px;
-      width: 75px;
-      
-    }
-    #js-text{
-      margin-top: -15px;
-    }
-    #js{
-      margin-top: 15px;
-    }
-    #intro{
-      background-position-y: 50px;
-      
-    }
-    
-
-}
-@media  screen and (max-width: 500px){
-  /* intro-img */
-  #intro{
-    height:90vh;
-    background-image: url('/img/skatecrop.png');
-    background-position-x: -300px;
-    
+    color: #95afba;
   }
-  #lnlogo{
+
+  #navlinks {
+    margin: 0px, auto, 0px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  #navlinks a {
+    padding-bottom: 10px;
+  }
+  #navlinks a:hover {
+    font-size: 20px;
+    color: #95afba;
+  }
+  #right-marg{
+    margin: 0px;
+  }
+  /* project section */
+  .project-page {
+    height: 1200px;
+  }
+  .project-container {
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #project-box {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 400px;
+  }
+
+  /* about section */
+  #about-info {
+    width: 300px;
+    height: 325px;
+    margin-top: 20px;
+  }
+  #about-hobbies {
+    width: 300px;
+    height: 200px;
+  }
+  .about-page {
+    height: 750px;
+  }
+  #about-img {
+    display: none;
+  }
+  /* skills section */
+
+  #skill-box {
+    width: 300px;
+  }
+  .tech-logo {
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    height: 105px;
+    width: 75px;
+  }
+  #js-text {
+    margin-top: -15px;
+  }
+  #js {
+    margin-top: 15px;
+  }
+  #intro {
+    background-position-y: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* intro-img */
+  #intro {
+    height: 90vh;
+    background-image: url("/img/skatecrop.png");
+    background-position-x: -300px;
+  }
+  #lnlogo {
     margin-right: 25px;
   }
-  #mail-logo{
+  #mail-logo {
     margin-right: 25px;
   }
 }
